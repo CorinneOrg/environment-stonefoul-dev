@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:stonefoul/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:stonefoul/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:stonefoul/prow:hmacToken
+segmentWriteKey: vault:stonefoul:segmentWriteKey
